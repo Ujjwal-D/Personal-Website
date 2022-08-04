@@ -234,3 +234,44 @@ footer ul li a:hover
     transition: all .3s ease;
     color: #FF0077;
 }
+
+/* CSS for mobile devices */
+@media only screen and (max-width:768px) {
+    .logo{
+        margin: 0 30%;
+        margin-bottom: 5%;
+    }
+
+    .menu{
+        display: block;
+        width: 30%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .menu ul li{
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 2%;
+        margin: 0 0 15% -120%;
+    }
+
+    .col-two-parts, .col-three-parts, .col-four-parts{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .skill-title{
+        font-size: 1.2em;
+        line-height: 50px;
+        color: #6F4E37;
+    }
+
+    .skill-meter{
+        width: 100%;
+    }
+
+
+}
