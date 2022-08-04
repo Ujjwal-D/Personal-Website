@@ -1,31 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Ujjwal Dhakal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- For linking CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-  
-      <!-- nav bar -->
-      <div class="navbar">
-       <!--Nav links-->
-        <ul class="nav_links">
-          <li ><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Hire Me</a></li>
+  <!-- Navbar section starting portion -->
+  <nav class="navbar">
+    <div class="wrapper">
+      
+      <!-- LOGO -->
+      <div class="logo">
+        <a><img src="https://i.ibb.co/3SXPgp7/UJJWAL-DHAKAL-White-1.png" alt="UD" height="150px" width="150px"></a>
+      </div>
+      
+      <!-- MENU  -->
+      <div class="menu text-right">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#blog">Blogs</a></li>
+          <li><a href="#links">Links</a></li>
+
         </ul>
+      </div>
+
+      <div class="clearfix"></div>
     </div>
+  </nav>
+  <!-- Navbar section ends -->
+
+  <!-- About section starting portion -->
+  <div class="about" id="about">
+    <div class="wrapper">
+      
+      <div class="col-two-parts">
+        <img src="images/ujjwal-dhakal.JPG" alt="Ujjwal Dhakal's photo" class="img-responsive">
+      </div>
+      
+      <div class="col-two-parts">
+        <h1 class="about-title">Hi, I am Ujjwal Dhakal</h1>
+        <h3 class="about-subtitle">Software Engineering Student <br> Mobile Development <br> Digital Marketing</h3>
+        <p class="about-description">
+          <br>
+          I am currently based in Nepal. I've been working in this area for almost 4 years and now specializing in mobile development. My key strengths are visual design and implementation. Checkout my works below.
+        </p>
+
+        <a href="#" class="btn">Take a look at my projects</a>
+      </div>
+      
+      <div class="clearfix"></div>
+   </div>
     
-    <div id="home">
-        <div class="main">
-            <h1 class="intro">Hi, <br>I am <span>Ujjwal Dhakal</span></h1>
+  </div>
+  
+  <!-- About section ends -->
+
+  <!-- Project section starting portion -->
+   <div class="projects" id="projects">
+    <div class="wrapper">
+     
+      <h2 class="text-center">Projects</h2>
+     
+      <a href="https://github.com/Ujjwal-D/ShipinArt" target="_blank">
+      <div class="col-four-parts project-box">
+        <img src="images/projects/project-image-1.jpg" alt="ShipInArt Project" height="100%" width="100%" class="img-responsive">
+        <div class="project-title">
+          ShipInArt(In progress)
         </div>
-        <button class="btn">Interested</button>
+      </div>
+    </a>
+
+    <a href="https://qudgocrop.wixsite.com/home" target="_blank">
+      <div class="col-four-parts project-box">
+        <img src="images/projects/project-image-2.png" alt="QudGo project" height="100%" width="100%" class="img-responsive">
+        <div class="project-title">
+          Website for digital marketing
+        </div>
+      </div>
+    </a>
+
+    <a href="https://github.com/Ujjwal-D/Progressive-website" target="_blank">
+      <div class="col-four-parts project-box">
+        <img src="images/projects/project-image-3.jpg" alt="Html-only-website design" height="100%" width="100%" class="img-responsive">
+        <div class="project-title">
+          Html-only website (Gunmail)
+        </div>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="col-four-parts project-box">
+        <img src="images/projects/project-image-4.jpg" alt="UI design" height="100%" width="100%" class="img-responsive">
+        <div class="project-title">
+          Interactive UI design
+        </div>
+      </div>
+    </a>
+
+    <div class="clearfix"></div>
+
+
     </div>
+  </div>
+  
+  <!-- Project section ends -->
+
+   <!-- Skills section starting portion -->
+   <div class="skills" id="skills">
+    <div class="wrapper">
+      <h2 class="text-center skill">Skills</h2>
+
+      <div class="skill-box">
+        <span class="skill-title">HTML5</span>
+        <div class="skill-meter">
+
+          <div style="background-color: #FF0077; padding: 0.5%; width: 90%;"></div>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="skill-box">
+        <span class="skill-title">CSS3</span>
+        <div class="skill-meter">
+
+          <div style="background-color: #FF0077; padding: 0.5%; width: 75%;"></div>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="skill-box">
+        <span class="skill-title">PHP</span>
+        <div class="skill-meter">
+
+          <div style="background-color: #FF0077; padding: 0.5%; width: 70%;"></div>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="skill-box">
+        <span class="skill-title">Java</span>
+        <div class="skill-meter">
+
+          <div style="background-color: #FF0077; padding: 0.5%; width: 60%;"></div>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Skills section ends -->
+
+   <!-- Blog section starting portion -->
+   <div class="blog" id="blog">
+    <div class="wrapper">
+      <h2 class="text-center marginb-5">Blogs</h2>
+
+      <a href="https://qudgocrop.wixsite.com/home/post/what-is-digital-marketing-qudgo" target="_blank">
+      <div class="col-three-parts">
+        <img src="images/blogs/blog1.jpeg" alt="Digital Marketing" class="img-responsive">
+        <h3 class="blog-title">Digital Marketing</h3>
+      </div>
+     </a>
+
+     <a href="https://qudgocrop.wixsite.com/home/post/learn-affiliate-marketing-for-your-career-qudgo" target="_blank">
+      <div class="col-three-parts">
+        <img src="images/blogs/blog2.jpeg" alt="Marketing funnels" class="img-responsive">
+        <h3 class="blog-title">Affiliate Marketing</h3>
+      </div>
+    </a>
+
+    <a href="https://qudgocrop.wixsite.com/home/post/what-are-marketing-funnels-and-how-they-work-qudgo" target="_blank">
+      <div class="col-three-parts">
+        <img src="images/blogs/blog3.jpeg" alt="Marketing funnels" class="img-responsive">
+        <h3 class="blog-title">Marketing Funnels</h3>
+      </div>
+    </a>
+
+    <div class="clearfix"></div>
+    </div>  
+  </div>
+  
+  <!-- Blog section ends -->
+
+   <!-- Footer section starting portion -->
+   <footer id="links">
+    <div class="wrapper">
+      <div class="col-two-parts">
+        <a href="https://www.linkedin.com/in/ujjwal-dhakal-567b13211/" target="_blank" class="btn">Resume</a>
+      </div>
+
+      <div class="col-two-parts text-right">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/ujjwal-dhakal-567b13211/">LinkedIn</a></li>
+          <li><a href="https://github.com/Ujjwal-D">GitHub</a></li>
+          <li><a href="https://www.quora.com/profile/Ujjwal-Dhakal-17">Quora</a></li>
+          <li><a href="https://www.facebook.com/ujjwal.dhakal.03/">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+   </footer>
+  
+  <!-- Footer section ends -->
 </body>
 </html>
